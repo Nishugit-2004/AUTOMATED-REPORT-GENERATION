@@ -1,3 +1,4 @@
+#Automated Report Generation
 import pandas as pd
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib import colors
@@ -51,3 +52,4 @@ elements.append(table)
 doc.build(elements)
 
 print("✅ Report generated successfully: generated_report.pdf")
+
